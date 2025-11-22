@@ -28,7 +28,7 @@ spec:
           imagePullPolicy: Always
           env:
             - name: APP_BG_COLOR
-              value: red
+              value: lightred
           ports:
           - containerPort: 5000
             protocol: TCP
