@@ -3,7 +3,6 @@ kind: Deployment
 metadata:
   name: color
   annotations:
-    app.openshift.io/connects-to: server
     app.openshift.io/vcs-ref: main
     app.openshift.io/vcs-uri: 'https://github.com/w4hf/k8s-samples/tree/main/color-app'
   labels:
@@ -11,8 +10,8 @@ metadata:
     app.kubernetes.io/name: color
     app.kubernetes.io/component: frontend
     app.kubernetes.io/instance: color
-    app.openshift.io/runtime: nodejs
-    app.kubernetes.io/part-of: product-catalog
+    app.openshift.io/runtime: python
+    app.kubernetes.io/part-of: color
 spec:
   selector:
     matchLabels:
