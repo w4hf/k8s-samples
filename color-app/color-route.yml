@@ -1,0 +1,19 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: color
+  labels:
+    app: color
+    app.kubernetes.io/name: color
+    app.kubernetes.io/component: frontend
+    app.kubernetes.io/instance: color
+    endpoint: color
+spec:
+  port:
+    targetPort: http
+  to:
+    kind: Service
+    name: color
+  tls:
+    termination: edge
+    insecureEdgeTerminationPolicy: Redirect
