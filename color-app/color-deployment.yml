@@ -28,7 +28,7 @@ spec:
           imagePullPolicy: Always
           env:
             - name: APP_BG_COLOR
-              value: orange # possible values here : https://www.techonthenet.com/css/properties/background_color.php#:~:text=Background%2Dcolor%20values%20can%20be,white%2C%20black%2C%20and%20red.
+              value: orange # possible values here : https://www.techonthenet.com/css/properties/background_color.php
           ports:
           - containerPort: 5000
             protocol: TCP
