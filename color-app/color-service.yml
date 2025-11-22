@@ -5,7 +5,7 @@ metadata:
   labels:
     app: color
     app.kubernetes.io/name: color
-    app.kubernetes.io/component: frontend
+    app.kubernetes.io/component: color
     app.kubernetes.io/instance: color
 spec:
   ports:
