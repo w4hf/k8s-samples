@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: color
+  namespace: color
   annotations:
     app.openshift.io/vcs-ref: main
     app.openshift.io/vcs-uri: 'https://github.com/w4hf/k8s-samples/tree/main/color-app'
