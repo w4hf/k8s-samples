@@ -11,4 +11,4 @@ spec:
       args: ["600"]
 
 # oc rsh dbchecker
-# pg_isready -h controller.aap24.homy.local -p 5432
+# pg_isready -h db.example.com -p 5432
