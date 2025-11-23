@@ -4,6 +4,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: server
+  namespace: simple-app
   annotations:
     app.openshift.io/connects-to: database
     app.openshift.io/vcs-ref: master
