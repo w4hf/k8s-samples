@@ -2,6 +2,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: productdb
+  namespace: simple-app
 spec:
   accessModes:
   - ReadWriteOnce

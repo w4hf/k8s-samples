@@ -1,6 +1,7 @@
 kind: ConfigMap
 metadata:
   name: productdb-init
+  namespace: simple-app
 apiVersion: v1
 data:
   90-init-database.sh: |
