@@ -25,11 +25,11 @@ spec:
     spec:
       containers:
         - name: color
-          image: quay.io/hbouabda/color-app:v2
+          image: quay.io/hbouabda/color-app:v1
           imagePullPolicy: Always
           env:
             - name: APP_BG_COLOR
-              value: orange # possible values here : https://www.techonthenet.com/css/properties/background_color.php
+              value: lightblue # possible values here : https://www.techonthenet.com/css/properties/background_color.php
             - name: APP_MESSAGE
               value: This is version 2
           ports:
